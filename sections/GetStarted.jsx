@@ -26,6 +26,7 @@ const GetStarted = () => (
           className="w-[90%] h-[90%] object-contain"
         />
       </motion.div>
+
       <motion.div
         variants={fadeIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
