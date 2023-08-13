@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-import styles from "../styles";
-import { slideIn, staggerContainer, textVariant } from "../utils/motion";
+import styles from '../styles';
+import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
 const Hero = () => (
   <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
@@ -29,7 +29,7 @@ const Hero = () => (
       </div>
 
       <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
+        variants={slideIn('right', 'tween', 0.2, 1)}
         className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
         <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] ml-24" />
@@ -40,7 +40,7 @@ const Hero = () => (
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative -top-[30px] ml-24"
         />
 
-        <a href="#">
+        <a href="#world">
           <div className="w-full flex justify-end sm:-mt-[90px] -mt-[60px] pr-[40px] relative z-10 ml-8">
             <img
               src="/stamp.png"

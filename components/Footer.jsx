@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
-import { socials } from "../constants";
+import { motion } from 'framer-motion';
+import { socials } from '../constants';
 
-import styles from "../styles";
-import { footerVariants } from "../utils/motion";
+import styles from '../styles';
+import { footerVariants } from '../utils/motion';
 
 const Footer = () => (
   <motion.footer
@@ -40,7 +40,7 @@ const Footer = () => (
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">METAVERUS</h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © Metaversus. Original design from{" "}
+            Copyright © Metaversus. Original design from{' '}
             <a className="text-blue-500" href="https://github.com/adrianhajdin">
               Adrian Hajdin - JS Mastery
             </a>
